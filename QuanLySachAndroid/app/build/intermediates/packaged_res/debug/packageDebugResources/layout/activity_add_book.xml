@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/primary"
+        android:gravity="center_vertical"
+        android:paddingStart="18dp"
+        android:text="＋  Thêm sách"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="18dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="18dp">
+
+            <TextView style="@style/FieldLabel" android:text="Tên sách *" android:layout_marginTop="4dp" />
+            <EditText android:id="@+id/edtBookName" style="@style/FieldEditText" android:hint="Ví dụ: Đắc nhân tâm" android:inputType="textCapSentences" android:singleLine="true" />
+
+            <TextView style="@style/FieldLabel" android:text="Tác giả *" />
+            <EditText android:id="@+id/edtBookAuthor" style="@style/FieldEditText" android:hint="Ví dụ: Dale Carnegie" android:inputType="textCapWords" android:singleLine="true" />
+
+            <TextView style="@style/FieldLabel" android:text="Thể loại" />
+            <Spinner
+                android:id="@+id/spnCategory"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_input"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <TextView style="@style/FieldLabel" android:text="Tình trạng đọc" />
+            <RadioGroup
+                android:id="@+id/radioStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbUnread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:buttonTint="@color/primary" android:text="Chưa đọc" android:textSize="12sp" />
+                <RadioButton android:id="@+id/rbReading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:buttonTint="@color/primary" android:text="Đang đọc" android:textSize="12sp" />
+                <RadioButton android:id="@+id/rbRead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:buttonTint="@color/primary" android:text="Đã đọc" android:textSize="12sp" />
+            </RadioGroup>
+
+            <TextView style="@style/FieldLabel" android:text="Đánh giá (0–5 sao)" />
+            <RatingBar
+                android:id="@+id/ratingBarAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="0"
+                android:stepSize="1"
+                android:progressTint="@color/accent"
+                android:secondaryProgressTint="#FFE0B2" />
+
+            <TextView style="@style/FieldLabel" android:text="Ghi chú" />
+            <EditText
+                android:id="@+id/edtBookNotes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_input"
+                android:gravity="top|start"
+                android:hint="Nhập ghi chú (không bắt buộc)..."
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="12dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="#8A8A8A"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtAddError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/danger"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <Button android:id="@+id/btnSaveBook" style="@style/PrimaryButton" android:layout_marginTop="16dp" android:text="Lưu sách" />
+            <Button android:id="@+id/btnCancelAdd" style="@style/SecondaryButton" android:layout_marginTop="8dp" android:text="Hủy" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

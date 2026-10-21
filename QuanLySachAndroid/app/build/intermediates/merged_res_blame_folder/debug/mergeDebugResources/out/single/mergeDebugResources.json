@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/layout_activity_add_book.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/layout/activity_add_book.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/layout_activity_book_detail.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/layout/activity_book_detail.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/drawable_bg_button_danger.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/drawable/bg_button_danger.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/drawable_bg_input.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/drawable_bg_stats.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/drawable/bg_stats.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/drawable_bg_button_primary.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/layout_activity_login.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/drawable_bg_card_white.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/drawable/bg_card_white.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/drawable_bg_logo_circle.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/drawable/bg_logo_circle.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/layout_item_book.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/layout/item_book.xml"
+    },
+    {
+        "merged": "com.example.quanlysach.app-debug-4:/drawable_bg_button_outline.xml.flat",
+        "source": "com.example.quanlysach.app-main-6:/drawable/bg_button_outline.xml"
+    }
+]

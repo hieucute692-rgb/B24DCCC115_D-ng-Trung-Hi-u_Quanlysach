@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.quanlysach.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\PC013\\Downloads\\QuanLySachAndroid\\QuanLySachAndroid\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2,25,28,38,11,21",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,1318,1460,1969,599,1111",
+                        "endLines": "10,27,37,45,20,24",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "594,1455,1964,2368,1106,1313"
+                    },
+                    "to": {
+                        "startLines": "20,29,32,42,50,60",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "759,1303,1445,1954,2358,2870",
+                        "endLines": "28,31,41,49,59,63",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "1298,1440,1949,2353,2865,3072"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC013\\Downloads\\QuanLySachAndroid\\QuanLySachAndroid\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "5,6,11,9,2,3,4,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "192,233,455,374,55,97,144,278,325,415",
+                        "endColumns": "40,44,40,40,41,46,47,46,48,39",
+                        "endOffsets": "228,273,491,410,92,139,187,320,369,450"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "267,308,353,394,435,477,524,572,619,668",
+                        "endColumns": "40,44,40,40,41,46,47,46,48,39",
+                        "endOffsets": "303,348,389,430,472,519,567,614,663,703"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC013\\Downloads\\QuanLySachAndroid\\QuanLySachAndroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "106,55",
+                        "endLines": "9,2",
+                        "endColumns": "19,50",
+                        "endOffsets": "313,101"
+                    },
+                    "to": {
+                        "startLines": "2,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,708",
+                        "endLines": "8,19",
+                        "endColumns": "19,50",
+                        "endOffsets": "262,754"
+                    }
+                }
+            ]
+        }
+    ]
+}

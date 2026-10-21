@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/primary"
+        android:gravity="center_vertical"
+        android:paddingStart="18dp"
+        android:text="‹  Chi tiết sách"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card_white"
+                android:padding="16dp">
+
+                <TextView android:id="@+id/txtDetailName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_primary" android:textSize="20sp" android:textStyle="bold" />
+                <TextView android:id="@+id/txtDetailAuthorCategory" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:textColor="@color/text_secondary" android:textSize="13sp" />
+                <TextView android:id="@+id/txtDetailStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/primary" android:textSize="13sp" android:textStyle="bold" />
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="Đánh giá" android:textColor="@color/text_secondary" android:textSize="12sp" />
+                <RatingBar
+                    android:id="@+id/ratingBarDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="1"
+                    android:progressTint="@color/accent"
+                    android:secondaryProgressTint="#FFE0B2" />
+                <TextView android:id="@+id/txtDetailRatingValue" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_secondary" android:textSize="12sp" />
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="Ghi chú" android:textColor="@color/text_secondary" android:textSize="12sp" />
+                <TextView android:id="@+id/txtDetailNotes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="52dp" android:textColor="@color/text_primary" android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button android:id="@+id/btnMarkRead" style="@style/PrimaryButton" android:layout_marginTop="16dp" android:text="Đánh dấu đã đọc" />
+            <Button android:id="@+id/btnDetailBack" style="@style/SecondaryButton" android:layout_marginTop="8dp" android:text="Quay lại" />
+            <Button android:id="@+id/btnDeleteBook" style="@style/DangerButton" android:layout_marginTop="8dp" android:text="Xóa sách" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
